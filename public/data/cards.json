@@ -22,6 +22,17 @@
       "status": "Up from yesterday"
     },
     {
+      "id": 2,
+      "category": "Total Users",
+      "value": "12,345",
+      "icon": "fa-solid fa-cube",
+      "color": "icon-yellow",
+      "trendIcon": "fa-solid fa-arrow-trend-up",
+      "trendColor": "text-info",
+      "trend": "1.2 %",
+      "status": "Up from yesterday"
+    },
+    {
       "id": 3,
       "category": "Total Sales",
       "value": "$69,974",
