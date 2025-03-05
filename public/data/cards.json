@@ -1,0 +1,47 @@
+[
+    {
+      "id": 1,
+      "category": "Total Users",
+      "value": "40,689",
+      "icon": "fa-solid fa-user-group",
+      "color": "icon-blue",
+      "trendIcon": "fa-solid fa-arrow-trend-up",
+      "trendColor": "text-info",
+      "trend": "8.5 %",
+      "status": "Up from yesterday"
+    },
+    {
+      "id": 2,
+      "category": "Total Users",
+      "value": "12,345",
+      "icon": "fa-solid fa-cube",
+      "color": "icon-yellow",
+      "trendIcon": "fa-solid fa-arrow-trend-up",
+      "trendColor": "text-info",
+      "trend": "1.2 %",
+      "status": "Up from yesterday"
+    },
+    {
+      "id": 3,
+      "category": "Total Sales",
+      "value": "$69,974",
+      "icon": "fa-solid fa-chart-line",
+      "color": "icon-info",
+      "trendIcon": "fa-solid fa-arrow-trend-down",
+      "trendColor": "text-danger",
+      "trend": "2.5 %",
+      "status": "Up from yesterday"
+    },
+    {
+      "id": 4,
+      "category": "Total Pending",
+      "value": "1,268",
+      "icon": "fa-solid fa-clock-rotate-left",
+      "color": "icon-warning",
+      "trendIcon": "fa-solid fa-arrow-trend-up",
+      "trendColor": "text-info",
+      "trend": "1.2 %",
+      "status": "Up from yesterday"
+    }
+  ]
+  

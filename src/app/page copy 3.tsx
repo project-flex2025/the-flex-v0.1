@@ -24,20 +24,25 @@ export default function Home() {
       .catch((err) => console.error("Failed to fetch data:", err));
   }, []);
 
-
-  const getWidthClass = (width: number) => {
-    if (width <= 0 || width > 100) return "col-12"; // Fallback for invalid values
-
-    const columns = Math.round((12 * width) / 100); // Convert percentage to Bootstrap columns
-    return `col-md-${Math.min(columns, 12)}`; // Ensure it doesn’t exceed 12 columns
+  const getWidthClass = (width) => {
+    switch (width) {
+      case 100:
+        return "col-12";
+      case 50:
+        return "col-md-6";
+      case 25:
+        return "col-md-3";
+      default:
+        return "col-12";
+    }
   };
 
-  const getHeightClass = (height: any) => {
+  const getHeightClass = (height) => {
     return height === 50 ? "col-12" : "col-12";
   };
 
-  const groupItemsByRow = (items: any) => {
-    return items.reduce((acc: any, item: any) => {
+  const groupItemsByRow = (items) => {
+    return items.reduce((acc, item) => {
       if (!acc[item.row]) {
         acc[item.row] = [];
       }
@@ -50,13 +55,13 @@ export default function Home() {
     <div className="container">
       <h3 className="fw-bold mb-3 dashboard-head">Good Morning, Krishty</h3>
 
-      {Object.entries(groupedRows).map(([row, items]: any) => {
-        const mainItems = items.filter((item: any) => item.height !== 50);
-        const nestedItems = items.filter((item: any) => item.height === 50);
+      {Object.entries(groupedRows).map(([row, items]) => {
+        const mainItems = items.filter((item) => item.height !== 50);
+        const nestedItems = items.filter((item) => item.height === 50);
 
         return (
           <div key={row} className="row mb-4">
-            {mainItems.map((item: any, index: any) => {
+            {mainItems.map((item, index) => {
               if (item.type === "component") {
                 const ComponentToRender = componentMap[item.name];
                 return (
@@ -70,18 +75,10 @@ export default function Home() {
                   <div key={`card-${cardData.id}`} className={getWidthClass(item.width)}>
                     <div className="card card-stats card-round">
                       <div className="card-body">
-                        <div className="row align-items-center">
-                          <div className="col col-stats ms-3 ms-sm-0">
-                            <div className="numbers">
-                              <p className="card-category">{cardData.category}</p>
-                              <h4 className="card-title">{cardData.value}</h4>
-                            </div>
-                          </div>
-                          <div className="col-icon">
-                            <div className="icon-big text-center icon-blue bubble-shadow-small">
-                              <i className={`${cardData.icon} ${cardData.color}`}></i>
-                            </div>
-                          </div>
+                        <p className="card-category">{cardData.category}</p>
+                        <h4 className="card-title">{cardData.value}</h4>
+                        <div className="icon-big text-center bubble-shadow-small">
+                          <i className={`${cardData.icon} ${cardData.color}`}></i>
                         </div>
                         <div className="sale-info">
                           <i className={`${cardData.trendIcon} ${cardData.trendColor}`}></i>
@@ -98,7 +95,7 @@ export default function Home() {
             {nestedItems.length > 0 && (
               <div className="col-md-6">
                 <div className="row">
-                  {nestedItems.map((item: any, index: any) => {
+                  {nestedItems.map((item, index) => {
                     if (item.type === "component") {
                       const ComponentToRender = componentMap[item.name];
                       return (
@@ -112,18 +109,10 @@ export default function Home() {
                         <div key={`nested-card-${cardData.id}`} className={getHeightClass(item.height)}>
                           <div className="card card-stats card-round">
                             <div className="card-body">
-                              <div className="row align-items-center">
-                                <div className="col col-stats ms-3 ms-sm-0">
-                                  <div className="numbers">
-                                    <p className="card-category">{cardData.category}</p>
-                                    <h4 className="card-title">{cardData.value}</h4>
-                                  </div>
-                                </div>
-                                <div className="col-icon">
-                                  <div className="icon-big text-center icon-blue bubble-shadow-small">
-                                    <i className={`${cardData.icon} ${cardData.color}`}></i>
-                                  </div>
-                                </div>
+                              <p className="card-category">{cardData.category}</p>
+                              <h4 className="card-title">{cardData.value}</h4>
+                              <div className="icon-big text-center bubble-shadow-small">
+                                <i className={`${cardData.icon} ${cardData.color}`}></i>
                               </div>
                               <div className="sale-info">
                                 <i className={`${cardData.trendIcon} ${cardData.trendColor}`}></i>

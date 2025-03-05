@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Dashboard",
+    "route": "/",
+    "icon": "fas fa-cog"
+  },
+  {
+    "id": 2,
+    "name": "Settings",
+    "route": "/settings",
+    "icon": "fas fa-cog"
+  },
+  {
+    "id": 3,
+    "name": "Users",
+    "route": "/users",
+    "icon": "fas fa-cog"
+  }
+]

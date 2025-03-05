@@ -1,0 +1,262 @@
+[
+    {
+        "id": "EMP101",
+        "name": "John Dev",
+        "role": "Developer",
+        "department": "IT Department",
+        "status": "Work from office",
+        "checkIn": "09:00",
+        "checkOut": "18:00",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP102",
+        "name": "Steave Smith",
+        "role": "HR",
+        "department": "IT Department",
+        "status": "Absent",
+        "checkIn": "00:00",
+        "checkOut": "00:00",
+        "workHours": "00:00"
+    },
+    {
+        "id": "EMP103",
+        "name": "Alice Johnson",
+        "role": "Manager",
+        "department": "Finance",
+        "status": "Late Arrival",
+        "checkIn": "09:30",
+        "checkOut": "18:30",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP104",
+        "name": "Mark Spencer",
+        "role": "Sales Executive",
+        "department": "Marketing",
+        "status": "Work from home",
+        "checkIn": "09:00",
+        "checkOut": "18:00",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP105",
+        "name": "Emma Watson",
+        "role": "Accountant",
+        "department": "Finance",
+        "status": "Work from office",
+        "checkIn": "08:45",
+        "checkOut": "17:45",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP106",
+        "name": "David Warner",
+        "role": "HR",
+        "department": "HR Department",
+        "status": "Absent",
+        "checkIn": "00:00",
+        "checkOut": "00:00",
+        "workHours": "00:00"
+    },
+    {
+        "id": "EMP107",
+        "name": "Sophia Green",
+        "role": "Analyst",
+        "department": "IT Department",
+        "status": "Work from office",
+        "checkIn": "09:00",
+        "checkOut": "18:00",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP108",
+        "name": "Jake Taylor",
+        "role": "Designer",
+        "department": "Design",
+        "status": "Late Arrival",
+        "checkIn": "10:00",
+        "checkOut": "19:00",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP109",
+        "name": "Olivia Brown",
+        "role": "Marketing Lead",
+        "department": "Marketing",
+        "status": "Work from home",
+        "checkIn": "09:00",
+        "checkOut": "18:00",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP110",
+        "name": "Liam Wilson",
+        "role": "Support Engineer",
+        "department": "Customer Support",
+        "status": "Absent",
+        "checkIn": "00:00",
+        "checkOut": "00:00",
+        "workHours": "00:00"
+    },
+    {
+        "id": "EMP111",
+        "name": "Mia White",
+        "role": "Project Manager",
+        "department": "IT Department",
+        "status": "Work from office",
+        "checkIn": "09:00",
+        "checkOut": "18:00",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP112",
+        "name": "Noah Martin",
+        "role": "Tester",
+        "department": "QA",
+        "status": "Work from office",
+        "checkIn": "08:30",
+        "checkOut": "17:30",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP113",
+        "name": "Lucas Scott",
+        "role": "Sales Manager",
+        "department": "Marketing",
+        "status": "Late Arrival",
+        "checkIn": "09:50",
+        "checkOut": "18:50",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP114",
+        "name": "Charlotte Adams",
+        "role": "HR Executive",
+        "department": "HR Department",
+        "status": "Work from home",
+        "checkIn": "09:00",
+        "checkOut": "18:00",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP115",
+        "name": "Daniel Lewis",
+        "role": "Software Engineer",
+        "department": "IT Department",
+        "status": "Absent",
+        "checkIn": "00:00",
+        "checkOut": "00:00",
+        "workHours": "00:00"
+    },
+    {
+        "id": "EMP116",
+        "name": "Ella Thompson",
+        "role": "Customer Support",
+        "department": "Support",
+        "status": "Work from office",
+        "checkIn": "09:00",
+        "checkOut": "18:00",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP117",
+        "name": "Henry Carter",
+        "role": "Designer",
+        "department": "Design",
+        "status": "Work from home",
+        "checkIn": "09:00",
+        "checkOut": "18:00",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP118",
+        "name": "Victoria Reed",
+        "role": "Consultant",
+        "department": "Business",
+        "status": "Work from office",
+        "checkIn": "09:15",
+        "checkOut": "18:15",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP119",
+        "name": "Ethan Green",
+        "role": "SEO Specialist",
+        "department": "Marketing",
+        "status": "Late Arrival",
+        "checkIn": "10:00",
+        "checkOut": "19:00",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP120",
+        "name": "Amelia Ross",
+        "role": "Business Analyst",
+        "department": "Business",
+        "status": "Work from home",
+        "checkIn": "09:00",
+        "checkOut": "18:00",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP121",
+        "name": "Jack Perry",
+        "role": "IT Support",
+        "department": "IT Department",
+        "status": "Absent",
+        "checkIn": "00:00",
+        "checkOut": "00:00",
+        "workHours": "00:00"
+    },
+    {
+        "id": "EMP122",
+        "name": "Emily Fisher",
+        "role": "Finance Manager",
+        "department": "Finance",
+        "status": "Work from office",
+        "checkIn": "08:50",
+        "checkOut": "17:50",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP123",
+        "name": "James Miller",
+        "role": "CEO",
+        "department": "Management",
+        "status": "Work from office",
+        "checkIn": "07:30",
+        "checkOut": "16:30",
+        "workHours": "09:00"
+    },
+    {
+        "id": "EMP124",
+        "name": "Ava Baker",
+        "role": "HR Manager",
+        "department": "HR",
+        "status": "Late Arrival",
+        "checkIn": "09:45",
+        "checkOut": "18:45",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP125",
+        "name": "Benjamin Evans",
+        "role": "Content Writer",
+        "department": "Marketing",
+        "status": "Work from home",
+        "checkIn": "09:00",
+        "checkOut": "18:00",
+        "workHours": "08:00"
+    },
+    {
+        "id": "EMP126",
+        "name": "Chloe Stewart",
+        "role": "Research Analyst",
+        "department": "R&D",
+        "status": "Absent",
+        "checkIn": "00:00",
+        "checkOut": "00:00",
+        "workHours": "00:00"
+    }
+]

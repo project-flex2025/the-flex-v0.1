@@ -1,0 +1,14 @@
+{
+    "tabs": [
+        {
+            "id": "employees",
+            "name": "Employees",
+            "hasData": false
+        },
+        {
+            "id": "managers",
+            "name": "Managers",
+            "hasData": false
+        }
+    ]
+}

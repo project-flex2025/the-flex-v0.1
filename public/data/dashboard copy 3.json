@@ -1,0 +1,147 @@
+{
+  "dashboardItems": [
+    {
+      "type": "component",
+      "row": 2,
+      "width": 50,
+      "height": 50,
+      "name": "SalesChart"
+    },
+    {
+      "type": "component",
+      "row": 2,
+      "width": 50,
+      "height": 50,
+      "name": "SalesChart"
+    },
+    {
+      "type": "component",
+      "row": 2,
+      "width": 50,
+      "height": 100,
+      "name": "TableComponent"
+    },
+    {
+      "type": "component",
+      "row": 3,
+      "width": 50,
+      "height": 100,
+      "name": "SalesChart"
+    },
+    {
+      "type": "component",
+      "row": 3,
+      "width": 50,
+      "height": 100,
+      "name": "SalesChart"
+    },
+    {
+      "type": "card",
+      "name": "Total Users",
+      "row": 1,
+      "width": 25,
+      "height": 100,
+      "data": {
+        "id": 1,
+        "category": "Total Users",
+        "value": "40,689",
+        "icon": "fa-solid fa-user-group",
+        "color": "icon-blue",
+        "trendIcon": "fa-solid fa-arrow-trend-up",
+        "trendColor": "text-info",
+        "trend": "8.5 %",
+        "status": "Up from yesterday"
+      }
+    },
+    {
+      "type": "card",
+      "name": "Total Users",
+      "row": 1,
+      "width": 25,
+      "height": 100,
+      "data": {
+        "id": 2,
+        "category": "Total Pending",
+        "value": "1,268",
+        "icon": "fa-solid fa-clock-rotate-left",
+        "color": "icon-warning",
+        "trendIcon": "fa-solid fa-arrow-trend-up",
+        "trendColor": "text-info",
+        "trend": "1.2 %",
+        "status": "Up from yesterday"
+      }
+    },
+    {
+      "type": "card",
+      "name": "Total Users",
+      "row": 1,
+      "width": 25,
+      "height": 100,
+      "data": {
+        "id": 3,
+        "category": "Total Pending",
+        "value": "1,268",
+        "icon": "fa-solid fa-clock-rotate-left",
+        "color": "icon-warning",
+        "trendIcon": "fa-solid fa-arrow-trend-up",
+        "trendColor": "text-info",
+        "trend": "1.2 %",
+        "status": "Up from yesterday"
+      }
+    },
+    {
+      "type": "card",
+      "name": "Total Sales",
+      "row": 1,
+      "width": 25,
+      "height": 100,
+      "data": {
+        "id": 4,
+        "category": "Total Sales",
+        "value": "$69,974",
+        "icon": "fa-solid fa-chart-line",
+        "color": "icon-info",
+        "trendIcon": "fa-solid fa-arrow-trend-down",
+        "trendColor": "text-danger",
+        "trend": "2.5 %",
+        "status": "Up from yesterday"
+      }
+    },
+    {
+      "type": "card",
+      "name": "Total Users",
+      "row": 4,
+      "width": 50,
+      "height": 100,
+      "data": {
+        "id": 1,
+        "category": "Total Users",
+        "value": "40,689",
+        "icon": "fa-solid fa-user-group",
+        "color": "icon-blue",
+        "trendIcon": "fa-solid fa-arrow-trend-up",
+        "trendColor": "text-info",
+        "trend": "8.5 %",
+        "status": "Up from yesterday"
+      }
+    },
+    {
+      "type": "card",
+      "name": "Total Users",
+      "row": 4,
+      "width": 50,
+      "height": 100,
+      "data": {
+        "id": 2,
+        "category": "Total Pending",
+        "value": "1,268",
+        "icon": "fa-solid fa-clock-rotate-left",
+        "color": "icon-warning",
+        "trendIcon": "fa-solid fa-arrow-trend-up",
+        "trendColor": "text-info",
+        "trend": "1.2 %",
+        "status": "Up from yesterday"
+      }
+    }
+  ]
+}
