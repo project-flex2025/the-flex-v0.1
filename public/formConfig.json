@@ -1,0 +1,106 @@
+[
+    {
+        "feature_name": "user_management",
+        "form_type": "registration",
+        "row_fields_count": 1,
+        "formName": "Registration Form",
+        "fields": [
+            {
+                "label": "Full Name",
+                "name": "fullName",
+                "type": "text",
+                "placeholder": "Enter your full name",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "Full Name is required"
+                    },
+                    {
+                        "rule": "minLength",
+                        "value": 3,
+                        "message": "Full Name must be at least 3 characters"
+                    }
+                ]
+            },
+            {
+                "label": "Email",
+                "name": "email",
+                "type": "email",
+                "placeholder": "Enter your email",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "Email is required"
+                    },
+                    {
+                        "rule": "email",
+                        "message": "Invalid email format"
+                    }
+                ]
+            },
+            {
+                "label": "Password",
+                "name": "password",
+                "type": "password",
+                "placeholder": "Enter your password",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "Password is required"
+                    },
+                    {
+                        "rule": "minLength",
+                        "value": 6,
+                        "message": "Password must be at least 6 characters"
+                    }
+                ]
+            },
+            {
+                "label": "Age",
+                "name": "age",
+                "type": "number",
+                "placeholder": "Enter your age",
+                "required": false,
+                "validations": [
+                    {
+                        "rule": "minValue",
+                        "value": 18,
+                        "message": "Age must be at least 18"
+                    }
+                ]
+            },
+            {
+                "label": "Gender",
+                "name": "gender",
+                "type": "select",
+                "options": [
+                    "Male",
+                    "Female",
+                    "Other"
+                ],
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "Please select a gender"
+                    }
+                ]
+            },
+            {
+                "label": "Accept Terms",
+                "name": "terms",
+                "type": "checkbox",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "You must accept the terms"
+                    }
+                ]
+            }
+        ]
+    }
+]

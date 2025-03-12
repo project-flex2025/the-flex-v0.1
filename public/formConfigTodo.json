@@ -1,0 +1,51 @@
+[
+    {
+        "feature_name": "todo_management",
+        "form_type": "todo",
+        "formName": "To-Do Form",
+        "fields": [
+            {
+                "label": "User Name",
+                "name": "userName",
+                "type": "text",
+                "placeholder": "Enter user name",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "User Name is required"
+                    }
+                ]
+            },
+            {
+                "label": "User Email",
+                "name": "userEmail",
+                "type": "email",
+                "placeholder": "Enter user email",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "User Email is required"
+                    },
+                    {
+                        "rule": "email",
+                        "message": "Invalid email format"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "label": "Add User",
+                "type": "button",
+                "action": "add"
+            },
+            {
+                "label": "Delete User",
+                "type": "button",
+                "action": "delete"
+            }
+        ]
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+      "type": "basic",
+      "title": "Basic Bar Chart",
+      "xAxisLabel": "Sales Amount (in $)",
+      "yAxisLabel": "Units Sold",
+      "bars": [
+        { "dataKey": "y", "color": "#8884d8", "name": "Units Sold" }
+      ],
+      "data": [
+        { "x": 5000, "y": 5 },
+        { "x": 10000, "y": 45 },
+        { "x": 15000, "y": 2 },
+        { "x": 20000, "y": 38 },
+        { "x": 22000, "y": 95 }
+      ]
+    },
+  
+    {
+      "type": "grouped",
+      "title": "Grouped Bar Chart",
+      "xAxisLabel": "Sales Amount (in $)",
+      "yAxisLabel": "Units Sold",
+      "bars": [
+        { "dataKey": "y1", "color": "#8884d8", "name": "2023 Sales" },
+        { "dataKey": "y2", "color": "#82ca9d", "name": "2024 Sales" },
+        { "dataKey": "y3", "color": "#f77783", "name": "2025 Sales" }
+      ],
+      "data": [
+        { "x": "Jan", "y1": 40, "y2": 24, "y3":35 },
+        { "x": "Feb", "y1": 30, "y2": 56, "y3":10 },
+        { "x": "Mar", "y1": 20, "y2": 80, "y3":43 },
+        { "x": "Apr", "y1": 27, "y2": 39, "y3":55 },
+        { "x": "May", "y1": 27, "y2": 65, "y3":55 },
+        { "x": "Jun", "y1": 27, "y2": 39, "y3":55 },
+        { "x": "Jul", "y1": 76, "y2": 43, "y3":55 },
+        { "x": "Aug", "y1": 27, "y2": 76, "y3":55 },
+        { "x": "Sep", "y1": 38, "y2": 39, "y3":55 },
+        { "x": "Oct", "y1": 67, "y2": 55, "y3":55 },
+        { "x": "Nov", "y1": 27, "y2": 39, "y3":55 },
+        { "x": "Dec", "y1": 39, "y2": 80, "y3":55 }
+      ]
+    }
+  ]
+  

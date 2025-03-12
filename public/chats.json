@@ -1,0 +1,18 @@
+{
+    "barChart": [
+      { "label": "Apples", "value": 50 },
+      { "label": "Oranges", "value": 75 },
+      { "label": "Bananas", "value": 100 }
+    ],
+    "lineChart": [
+      { "month": "Jan", "value": 30 },
+      { "month": "Feb", "value": 50 },
+      { "month": "Mar", "value": 80 }
+    ],
+    "pieChart": [
+      { "label": "Chrome", "value": 60 },
+      { "label": "Firefox", "value": 25 },
+      { "label": "Safari", "value": 15 }
+    ]
+  }
+  

@@ -15,7 +15,7 @@ const EmployeesTab = () => {
     <div>
       {employees.length > 0 ? (
         <ul className="list-disc pl-5">
-          {employees.map((emp) => (
+          {employees.map((emp:any) => (
             <li key={emp.id} className="p-2">
               {emp.name} - {emp.role}
             </li>

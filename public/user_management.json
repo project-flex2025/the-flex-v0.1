@@ -1,0 +1,34 @@
+[
+  {
+    "fullName": "sharath",
+    "email": "sharath@gmail.com",
+    "password": "1234",
+    "age": "25",
+    "gender": "Male",
+    "terms": true
+  },
+  {
+    "fullName": "test",
+    "email": "test@gmail.com",
+    "password": "123456",
+    "age": "25",
+    "gender": "Male",
+    "terms": true
+  },
+  {
+    "fullName": "user",
+    "email": "user@gmail.com",
+    "password": "123456",
+    "age": "26",
+    "gender": "Male",
+    "terms": true
+  },
+  {
+    "fullName": "dc3",
+    "email": "abc@gmail.com",
+    "password": "123456",
+    "age": "21",
+    "gender": "Female",
+    "terms": true
+  }
+]

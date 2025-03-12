@@ -1,0 +1,213 @@
+{
+    "pages": [
+        {
+            "name": "Dashboard",
+            "route": "/dashboard",
+            "mainComponent": "DashboardComponent",
+            "components": [
+                "TableComponent",
+                "SalesChart"
+            ],
+            "content": {
+                "dashboardItems": [
+                    {
+                        "type": "component",
+                        "row": 2,
+                        "width": 100,
+                        "height": 100,
+                        "name": "TableComponent",
+                        "api_point":"users_info"
+                    },
+                    {
+                        "type": "component",
+                        "row": 2,
+                        "width": 50,
+                        "height": 100,
+                        "name": "SalesChart",
+                        "api_point":"users_info"
+                    },
+                    {
+                        "type": "component",
+                        "row": 2,
+                        "width": 50,
+                        "height": 100,
+                        "name": "SalesChart",
+                        "api_point":"users_info"
+                    },
+                    {
+                        "type": "card",
+                        "name": "Total Users",
+                        "row": 1,
+                        "width": 45,
+                        "height": 100,
+                        "data": {
+                            "id": 1,
+                            "category": "Total Users",
+                            "value": "40,689",
+                            "icon": "fa-solid fa-user-group",
+                            "color": "icon-blue",
+                            "trendIcon": "fa-solid fa-arrow-trend-up",
+                            "trendColor": "text-info",
+                            "trend": "8.5 %",
+                            "status": "Up from yesterday"
+                        }
+                    },
+                    {
+                        "type": "card",
+                        "name": "Total Users",
+                        "row": 1,
+                        "width": 45,
+                        "height": 100,
+                        "data": {
+                            "id": 2,
+                            "category": "Total Pending",
+                            "value": "1,268",
+                            "icon": "fa-solid fa-clock-rotate-left",
+                            "color": "icon-warning",
+                            "trendIcon": "fa-solid fa-arrow-trend-up",
+                            "trendColor": "text-info",
+                            "trend": "1.2 %",
+                            "status": "Up from yesterday"
+                        }
+                    },
+                    {
+                        "type": "card",
+                        "name": "Total Users",
+                        "row": 1,
+                        "width": 45,
+                        "height": 100,
+                        "data": {
+                            "id": 3,
+                            "category": "Total Pending",
+                            "value": "1,268",
+                            "icon": "fa-solid fa-clock-rotate-left",
+                            "color": "icon-warning",
+                            "trendIcon": "fa-solid fa-arrow-trend-up",
+                            "trendColor": "text-info",
+                            "trend": "1.2 %",
+                            "status": "Up from yesterday"
+                        }
+                    },
+                    {
+                        "type": "card",
+                        "name": "Total Sales",
+                        "row": 1,
+                        "width": 25,
+                        "height": 100,
+                        "data": {
+                            "id": 4,
+                            "category": "Total Sales",
+                            "value": "$69,974",
+                            "icon": "fa-solid fa-chart-line",
+                            "color": "icon-info",
+                            "trendIcon": "fa-solid fa-arrow-trend-down",
+                            "trendColor": "text-danger",
+                            "trend": "2.5 %",
+                            "status": "Up from yesterday"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Users",
+            "route": "/users",
+            "mainComponent": "UsersComponent",
+            "components": [
+                "UserTableComponent",
+                "UserStatsCard"
+            ],
+            "content": {
+                "users": [
+                    {
+                        "id": 1,
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "status": "Active"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Jane Doe",
+                        "email": "jane@example.com",
+                        "status": "Inactive"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Customers",
+            "route": "/customers",
+            "mainComponent": "customersComponent",
+            "components": [
+                "CustomerListComponent",
+                "CustomerStatsCard"
+            ],
+            "content": {
+                "customers": [
+                    {
+                        "id": 1,
+                        "name": "Acme Corp",
+                        "purchase": "$12,000",
+                        "status": "Premium"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Beta LLC",
+                        "purchase": "$8,500",
+                        "status": "Standard"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Products",
+            "route": "/products",
+            "mainComponent": "productsComponent",
+            "components": [
+                "ProductListComponent",
+                "ProductStatsCard"
+            ],
+            "content": {
+                "products": [
+                    {
+                        "id": 1,
+                        "name": "Product A",
+                        "price": "$100",
+                        "stock": "Available"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Product B",
+                        "price": "$150",
+                        "stock": "Out of Stock"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Reports",
+            "route": "/reports",
+            "mainComponent": "reportsComponent",
+            "components": [
+                "ReportsTableComponent",
+                "ReportsChartComponent"
+            ],
+            "content": {
+                "reports": [
+                    {
+                        "id": 1,
+                        "title": "Sales Report",
+                        "date": "2024-03-01",
+                        "status": "Completed"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Inventory Report",
+                        "date": "2024-03-02",
+                        "status": "Pending"
+                    }
+                ]
+            }
+        }
+    ]
+}

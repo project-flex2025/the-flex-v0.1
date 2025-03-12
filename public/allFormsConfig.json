@@ -1,0 +1,207 @@
+[
+    {
+        "feature_name": "user_management",
+        "form_type": "registration",
+        "row_fields_count": 1,
+        "formName": "Registration Form",
+        "fields": [
+            {
+                "label": "Full Name",
+                "name": "fullName",
+                "type": "text",
+                "placeholder": "Enter your full name",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "Full Name is required"
+                    },
+                    {
+                        "rule": "minLength",
+                        "value": 3,
+                        "message": "Full Name must be at least 3 characters"
+                    }
+                ]
+            },
+            {
+                "label": "Email",
+                "name": "email",
+                "type": "email",
+                "placeholder": "Enter your email",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "Email is required"
+                    },
+                    {
+                        "rule": "email",
+                        "message": "Invalid email format"
+                    }
+                ]
+            },
+            {
+                "label": "Password",
+                "name": "password",
+                "type": "password",
+                "placeholder": "Enter your password",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "Password is required"
+                    },
+                    {
+                        "rule": "minLength",
+                        "value": 6,
+                        "message": "Password must be at least 6 characters"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "feature_name": "user_management",
+        "form_type": "login",
+        "row_fields_count": 1,
+        "formName": "Login Form",
+        "fields": [
+            {
+                "label": "Email",
+                "name": "email",
+                "type": "email",
+                "placeholder": "Enter your email",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "Email is required"
+                    },
+                    {
+                        "rule": "email",
+                        "message": "Invalid email format"
+                    }
+                ]
+            },
+            {
+                "label": "Password",
+                "name": "password",
+                "type": "password",
+                "placeholder": "Enter your password",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "Password is required"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "feature_name": "feedback",
+        "form_type": "contact",
+        "row_fields_count": 1,
+        "formName": "Contact Form",
+        "fields": [
+            {
+                "label": "Name",
+                "name": "name",
+                "type": "text",
+                "placeholder": "Enter your name",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "Name is required"
+                    }
+                ]
+            },
+            {
+                "label": "Email",
+                "name": "email",
+                "type": "email",
+                "placeholder": "Enter your email",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "Email is required"
+                    },
+                    {
+                        "rule": "email",
+                        "message": "Invalid email format"
+                    }
+                ]
+            },
+            {
+                "label": "Message",
+                "name": "message",
+                "type": "textarea",
+                "placeholder": "Enter your message",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "Message is required"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "feature_name": "survey",
+        "form_type": "feedback",
+        "row_fields_count": 1,
+        "formName": "Feedback Form",
+        "fields": [
+            {
+                "label": "Rating",
+                "name": "rating",
+                "type": "select",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "Rating is required"
+                    }
+                ]
+            },
+            {
+                "label": "Comments",
+                "name": "comments",
+                "type": "textarea",
+                "placeholder": "Enter your comments",
+                "required": false
+            }
+        ]
+    },
+    {
+        "feature_name": "search",
+        "form_type": "search",
+        "row_fields_count": 1,
+        "formName": "Search Form",
+        "fields": [
+            {
+                "label": "Search",
+                "name": "query",
+                "type": "text",
+                "placeholder": "Enter search query",
+                "required": true,
+                "validations": [
+                    {
+                        "rule": "required",
+                        "message": "Search query is required"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "chart_type": "piechart",
+    "title": "Market Share Pie Chart",
+    "feature_name": "chartTable",
+    "name_key": "category",
+    "value_key": "sales",
+    "colors": [
+      "#8884d8",
+      "#82ca9d",
+      "#f77783"
+    ]
+  }
+]

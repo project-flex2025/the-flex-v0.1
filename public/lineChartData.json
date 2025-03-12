@@ -1,0 +1,19 @@
+[
+  {
+    "chart_type": "linechart",
+    "title": "chart title",
+    "xAxisLabel": "X Axis Label",
+    "yAxisLabel": "Y Axis Label ",
+    "feature_name": "feature name(table name)",
+    "X_value": "X axis line value",
+    "y_value": "Y axis line value",
+    "lines": [
+      {
+        "dataKey": "display data key",
+        "color": "line color",
+        "name": "display line name"
+      }
+    ],
+    "data": []
+  }
+]
