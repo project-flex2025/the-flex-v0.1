@@ -1,0 +1,80 @@
+[
+    {
+      "chart_type": "linechart",
+      "title": "Sales Line Chart",
+      "xAxisLabel": "Months",
+      "yAxisLabel": "Sales Amount",
+      "feature_name": "chartTable",
+      "X_value": "categories",
+      "y_value": "count",
+      "lines": [
+        { "dataKey": "x1", "color": "#8884d8", "name": "2023 Sales" },
+        { "dataKey": "x2", "color": "#82ca9d", "name": "2024 Sales" }
+      ],
+      "data": [
+        { "y": "Jan", "x1": 400, "x2": 300 },
+        { "y": "Feb", "x1": 350, "x2": 280 },
+        { "y": "Mar", "x1": 450, "x2": 320 },
+        { "y": "Apr", "x1": 500, "x2": 400 },
+        { "y": "May", "x1": 550, "x2": 450 }
+      ]
+    },
+    {
+      "chart_type": "piechart",
+      "title": "Market Share Pie Chart",
+      "feature_name": "chartTable",
+      "data": [
+        { "name": "Product A", "value": 400 },
+        { "name": "Product B", "value": 300 },
+        { "name": "Product C", "value": 300 }
+      ],
+      "colors": ["#8884d8", "#82ca9d", "#f77783"]
+    },
+    {
+      "chart_type": "donutchart",
+      "title": "Revenue Donut Chart",
+      "feature_name": "chartTable",
+      "data": [
+        { "name": "Service A", "value": 500 },
+        { "name": "Service B", "value": 200 },
+        { "name": "Service C", "value": 300 }
+      ],
+      "colors": ["#8884d8", "#82ca9d", "#f77783"],
+      "innerRadius": 80,
+      "outerRadius": 120
+    },
+    {
+      "chart_type": "radarchart",
+      "title": "Performance Radar Chart",
+      "feature_name": "chartTable",
+      "data": [
+        { "subject": "Math", "score": 85 },
+        { "subject": "Science", "score": 90 },
+        { "subject": "English", "score": 75 },
+        { "subject": "History", "score": 80 },
+        { "subject": "Art", "score": 95 }
+      ],
+      "lines": [
+        { "dataKey": "score", "color": "#8884d8", "name": "Scores" }
+      ]
+    },
+    {
+      "chart_type": "barchart",
+      "title": "Quarterly Sales Bar Chart",
+      "xAxisLabel": "Quarters",
+      "yAxisLabel": "Sales Amount",
+      "feature_name": "chartTable",
+      "X_value": "",
+      "y_value": "",
+      "bars": [
+        { "dataKey": "q1", "color": "#8884d8", "name": "Q1 Sales" },
+        { "dataKey": "q2", "color": "#82ca9d", "name": "Q2 Sales" }
+      ],
+      "data": [
+        { "y": "Q1", "q1": 400, "q2": 300 },
+        { "y": "Q2", "q1": 350, "q2": 280 },
+        { "y": "Q3", "q1": 450, "q2": 320 },
+        { "y": "Q4", "q1": 500, "q2": 400 }
+      ]
+    }
+  ]

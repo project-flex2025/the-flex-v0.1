@@ -1,0 +1,24 @@
+[
+  {
+    "chart_type": "linechart",
+    "title": "Monthly Sales Comparison",
+    "xAxisLabel": "Customer",
+    "yAxisLabel": " Amount ($)",
+    "feature_name": "chartTable",
+    "X_value": "customer_name",
+    "y_value": "price",
+    "lines": [
+      {
+        "dataKey": "total_price",
+        "color": "#d61e2d",
+        "name": "Total Price"
+      },
+      {
+        "dataKey": "price_per_unit",
+        "color": "#1b5dcf",
+        "name": "Price Per Unit"
+      }
+    ],
+    "data": []
+  }
+]

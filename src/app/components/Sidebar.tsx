@@ -10,15 +10,14 @@ export default function Sidebar() {
 
   useEffect(() => {
     fetch("/data/sidebar.json")
-      .then((res) => res.json())
-      .then((data) => setMenuItems(data));
-
-    fetch("/data/cards.json")
-      .then((res) => res.json())
-      .then((data) => setCardItems(data));
-
-
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to fetch sidebar data");
+        return res.json();
+      })
+      .then((data) => setMenuItems(data))
+      .catch((err) => console.error("Error fetching sidebar data:", err));
   }, []);
+
 
   return (
     <div className="sidebar" data-background-color="white">
@@ -43,35 +42,7 @@ export default function Sidebar() {
 
       <div className="sidebar-wrapper scrollbar scrollbar-inner">
         <div className="sidebar-content">
-          {/* <ul className="nav nav-secondary">
-            <li className={`nav-item ${pathname === "/" ? "active" : ""}`}>
-              <Link href="/">
-                <i className="fas fa-cog"></i>
-                <p>Dashboard</p>
-              </Link>
-            </li>
-            <li className={`nav-item ${pathname === "/settings" ? "active" : ""}`}>
-              <Link href="/settings">
-                <i className="fas fa-cog"></i>
-                <p>Settings</p>
-              </Link>
-            </li>
-            <li className={`nav-item ${pathname === "/users" ? "active" : ""}`}>
-              <Link href="/users">
-                <i className="fas fa-cog"></i>
-                <p>Users</p>
-              </Link>
-            </li>
 
-
-            <li className={`nav-item ${pathname === "/profile" ? "active" : ""}`}>
-              <Link href="/login">
-                <i className="fas fa-user"></i>
-                <p>Login</p>
-              </Link>
-            </li>
-
-          </ul> */}
           <ul className="nav nav-secondary">
             {menuItems.map((item: any) => (
               <li key={item.id} className={`nav-item ${pathname === item.route ? "active" : ""}`}>

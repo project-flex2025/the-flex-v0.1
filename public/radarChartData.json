@@ -1,0 +1,18 @@
+[
+    {
+        "chart_type": "radarchart",
+        "title": "Chart Title",
+        "feature_name": "Feature Name",
+        "polarAngleAxisKey": "Display data value",
+        "radarKeys": [
+            {
+                "dataKey": "display data key",
+                "color": "color",
+                "name": "Display Name"
+            }
+        ],
+        "outerRadius": 150,
+        "innerRadius": 50,
+        "data": []
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "chart_type": "radarchart",
+        "title": "Product Performance Radar Chart",
+        "feature_name": "chartTable",
+        "polarAngleAxisKey": "category",
+        "radarKeys": [
+            {
+                "dataKey": "total_price",
+                "color": "#d61e2d",
+                "name": "Total Price"
+            },
+            {
+                "dataKey": "price_per_unit",
+                "color": "#1b5dcf",
+                "name": "Price per Unit"
+            }
+        ],
+        "outerRadius": 150,
+        "innerRadius": 50,
+        "data": []
+    }
+]

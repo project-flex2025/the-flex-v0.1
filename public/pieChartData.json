@@ -1,0 +1,13 @@
+[
+  {
+    "chart_type": "piechart",
+    "title": "chart title",
+    "feature_name": "feature name(table name)",
+    "name_key": "display name ",
+    "value_key": "display key",
+    "colors": [
+      "color 1",
+      "color 2"
+    ]
+  }
+]

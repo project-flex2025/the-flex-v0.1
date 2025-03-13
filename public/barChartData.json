@@ -1,0 +1,19 @@
+[
+  {
+    "chart_type": "barchart",
+    "title": "Chart Title",
+    "xAxisLabel": "X Axis Label",
+    "yAxisLabel": "X Axis Label",
+    "feature_name": "feature name",
+    "X_value": "X axis display value",
+    "y_value": "Y axis display value",
+    "bars": [
+      {
+        "dataKey": "Fetch or get data key ",
+        "color": "color",
+        "name": "Display Name"
+      }
+    ],
+    "data": []
+  }
+]

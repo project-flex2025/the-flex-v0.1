@@ -1,0 +1,24 @@
+[
+  {
+    "chart_type": "barchart",
+    "title": "Category-wise Sales Bar Chart",
+    "xAxisLabel": "Categories",
+    "yAxisLabel": "Total Sales Amount ($)",
+    "feature_name": "chartTable",
+    "X_value": "customer_name",
+    "y_value": "total_price",
+    "bars": [
+      {
+        "dataKey": "total_price",
+        "color": "#d61e2d",
+        "name": "Total Sales"
+      },
+      {
+        "dataKey": "price_per_unit",
+        "color": "#1b5dcf",
+        "name": "Price Per Unit"
+      }
+    ],
+    "data": []
+  }
+]

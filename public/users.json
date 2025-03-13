@@ -1,0 +1,303 @@
+{
+  "total_results": 4,
+  "data": [
+    {
+      "record_id": "flex_0001",
+      "feature_name": "user_management",
+      "created_on_date": "2025-02-11",
+      "feature_data": {
+        "record_data": [
+          {
+            "record_label": "City",
+            "record_type": "string",
+            "record_value_text": "Hyderabad"
+          },
+          {
+            "record_label": "Country",
+            "record_type": "string",
+            "record_value_text": "India"
+          }
+        ]
+      },
+      "user_credentials": {
+        "username": "rajesh",
+        "password": "rajesh",
+        "email": "rajesh@evega.in"
+      },
+      "department": "All",
+      "user_type": "super_admin",
+      "profile_information": {
+        "full_name": "Majjari Rajesh",
+        "phone": "123-321-1234",
+        "address": {
+          "street": "HYD",
+          "city": "Hyd",
+          "zip": 500054
+        }
+      },
+      "added_by": "flex_admin",
+      "record_status": "active",
+      "doc_position": 7,
+      "more_data": {
+        "permissions": [
+          {
+            "name": "Dashboard",
+            "route": "/dashboard",
+            "mainComponent": "DashboardComponent",
+            "dashboardItems": [
+              {
+                "type": "component",
+                "row": 2,
+                "width": 100,
+                "height": 100,
+                "name": "TableComponent",
+                "api_point": "users_info"
+              },
+              {
+                "type": "component",
+                "row": 2,
+                "width": 50,
+                "height": 100,
+                "name": "SalesChart",
+                "api_point": "sales_data"
+              },
+              {
+                "type": "card",
+                "name": "Total Users",
+                "row": 1,
+                "width": 45,
+                "height": 100,
+                "data": {
+                  "category": "Total Users",
+                  "value": "40,689",
+                  "icon": "fa-solid fa-user-group",
+                  "color": "icon-blue",
+                  "trendIcon": "fa-solid fa-arrow-trend-up",
+                  "trendColor": "text-info",
+                  "trend": "8.5%",
+                  "status": "Up from yesterday"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Employees",
+            "route": "/employees",
+            "mainComponent": "EmployeesComponent",
+            "dashboardItems": [
+              {
+                "type": "component",
+                "row": 2,
+                "width": 100,
+                "height": 100,
+                "name": "EmployeeTable",
+                "api_point": "employees_info"
+              },
+              {
+                "type": "card",
+                "name": "Total Employees",
+                "row": 1,
+                "width": 45,
+                "height": 100,
+                "data": {
+                  "category": "Total Employees",
+                  "value": "2,500",
+                  "icon": "fa-solid fa-users",
+                  "color": "icon-blue",
+                  "trendIcon": "fa-solid fa-arrow-trend-up",
+                  "trendColor": "text-success",
+                  "trend": "5.0%",
+                  "status": "Up from last week"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "flex_0002",
+      "feature_name": "user_management",
+      "created_on_date": "2025-02-11",
+      "feature_data": {
+        "record_data": [
+          {
+            "record_label": "City",
+            "record_type": "string",
+            "record_value_text": "Hyderabad"
+          },
+          {
+            "record_label": "Country",
+            "record_type": "string",
+            "record_value_text": "India"
+          }
+        ]
+      },
+      "user_credentials": {
+        "username": "sharath",
+        "password": "sharath",
+        "email": "sharath@evega.in"
+      },
+      "department": "dep_id",
+      "user_type": "admin",
+      "profile_information": {
+        "full_name": "Thanugula Sharath Kumar",
+        "phone": "123-321-1234",
+        "address": {
+          "street": "HYD",
+          "city": "Hyd",
+          "zip": 500054
+        }
+      },
+      "added_by": "flex_admin",
+      "record_status": "active",
+      "doc_position": 7,
+      "more_data": {
+        "permissions": [
+          {
+            "name": "Dashboard",
+            "route": "/dashboard",
+            "mainComponent": "DashboardComponent",
+            "dashboardItems": [
+              {
+                "type": "component",
+                "row": 2,
+                "width": 100,
+                "height": 100,
+                "name": "TableComponent",
+                "api_point": "users_info"
+              },
+              {
+                "type": "component",
+                "row": 2,
+                "width": 50,
+                "height": 100,
+                "name": "SalesChart",
+                "api_point": "sales_data"
+              },
+              {
+                "type": "card",
+                "name": "Total Users",
+                "row": 1,
+                "width": 45,
+                "height": 100,
+                "data": {
+                  "category": "Total Users",
+                  "value": "40,689",
+                  "icon": "fa-solid fa-user-group",
+                  "color": "icon-blue",
+                  "trendIcon": "fa-solid fa-arrow-trend-up",
+                  "trendColor": "text-info",
+                  "trend": "8.5%",
+                  "status": "Up from yesterday"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Employees",
+            "route": "/employees",
+            "mainComponent": "EmployeesComponent",
+            "dashboardItems": [
+              {
+                "type": "component",
+                "row": 2,
+                "width": 100,
+                "height": 100,
+                "name": "EmployeeTable",
+                "api_point": "employees_info"
+              },
+              {
+                "type": "card",
+                "name": "Total Employees",
+                "row": 1,
+                "width": 45,
+                "height": 100,
+                "data": {
+                  "category": "Total Employees",
+                  "value": "2,500",
+                  "icon": "fa-solid fa-users",
+                  "color": "icon-blue",
+                  "trendIcon": "fa-solid fa-arrow-trend-up",
+                  "trendColor": "text-success",
+                  "trend": "5.0%",
+                  "status": "Up from last week"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "flex_0003",
+      "feature_name": "user_management",
+      "created_on_date": "2025-02-11",
+      "user_credentials": {
+        "username": "vignesh",
+        "password": "vignesh",
+        "email": "vignesh@evega.in"
+      },
+      "department": "dep_id",
+      "user_type": "admin",
+      "profile_information": {
+        "full_name": "Vignesh Reddy",
+        "phone": "555-444-3333",
+        "address": {
+          "street": "HYD",
+          "city": "Hyd",
+          "zip": 500054
+        }
+      },
+      "added_by": "flex_admin",
+      "record_status": "active",
+      "doc_position": 8,
+      "more_data": {
+        "permissions": [
+          {
+            "name": "Employees",
+            "route": "/employees",
+            "mainComponent": "EmployeesComponent",
+            "dashboardItems": [
+              {
+                "type": "component",
+                "row": 2,
+                "width": 100,
+                "height": 100,
+                "name": "EmployeeTable",
+                "api_point": "employees_info"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "user_credentials": {
+        "username": "john_doe",
+        "password": "john123",
+        "email": "john@example.com"
+      },
+      "department": "Engineering",
+      "user_type": "admin",
+      "profile_information": {
+        "full_name": "John Doe",
+        "phone": "987-654-3210",
+        "address": {
+          "street": "Main St",
+          "city": "NY",
+          "zip": "10001"
+        }
+      },
+      "more_data": {
+        "permissions": [
+          {
+            "name": "Dashboard",
+            "route": "/dashboard",
+            "mainComponent": "DashboardComponent"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+    "total_results": 2,
+    "data": [
+      {
+        "record_id": "flex_0001",
+        "feature_name": "user_management",
+        "created_on_date": "2025-02-11",
+        "feature_data": {
+          "record_data": [
+            {
+              "record_label": "City",
+              "record_type": "string",
+              "record_value_text": "Hyderabad"
+            },
+            {
+              "record_label": "Country",
+              "record_type": "string",
+              "record_value_text": "India"
+            }
+          ]
+        },
+        "user_credentials": {
+          "username": "rajesh",
+          "password": "rajesh",
+          "email": "rajesh@evega.in"
+        },
+        "profile_information": {
+          "full_name": "Majjari Rajesh",
+          "phone": "123-321-1234",
+          "address": { "street": "HYD", "city": "Hyd", "zip": 500054 }
+        },
+        "added_by": "flex_admin",
+        "record_status": "active",
+        "doc_position": 7,
+        "more_data": {
+          "permissions": [
+            {
+              "name": "Dashboard",
+              "route": "/dashboard",
+              "mainComponent": "DashboardComponent",
+              "components": ["TableComponent", "SalesChart"],
+              "content": {
+                "dashboardItems": [
+                  {
+                    "type": "component",
+                    "row": 2,
+                    "width": 100,
+                    "height": 100,
+                    "name": "TableComponent",
+                    "api_point": "users_info"
+                  },
+                  {
+                    "type": "component",
+                    "row": 2,
+                    "width": 50,
+                    "height": 100,
+                    "name": "SalesChart",
+                    "api_point": "users_info"
+                  },
+                  {
+                    "type": "component",
+                    "row": 2,
+                    "width": 50,
+                    "height": 100,
+                    "name": "SalesChart",
+                    "api_point": "users_info"
+                  },
+                  {
+                    "type": "card",
+                    "name": "Total Users",
+                    "row": 1,
+                    "width": 45,
+                    "height": 100,
+                    "data": {
+                      "id": 1,
+                      "category": "Total Users",
+                      "value": "40,689",
+                      "icon": "fa-solid fa-user-group",
+                      "color": "icon-blue",
+                      "trendIcon": "fa-solid fa-arrow-trend-up",
+                      "trendColor": "text-info",
+                      "trend": "8.5 %",
+                      "status": "Up from yesterday"
+                    }
+                  },
+                  {
+                    "type": "card",
+                    "name": "Total Pending",
+                    "row": 1,
+                    "width": 45,
+                    "height": 100,
+                    "data": {
+                      "id": 2,
+                      "category": "Total Pending",
+                      "value": "1,268",
+                      "icon": "fa-solid fa-clock-rotate-left",
+                      "color": "icon-warning",
+                      "trendIcon": "fa-solid fa-arrow-trend-up",
+                      "trendColor": "text-info",
+                      "trend": "1.2 %",
+                      "status": "Up from yesterday"
+                    }
+                  },
+                  {
+                    "type": "card",
+                    "name": "Total Sales",
+                    "row": 1,
+                    "width": 25,
+                    "height": 100,
+                    "data": {
+                      "id": 4,
+                      "category": "Total Sales",
+                      "value": "$69,974",
+                      "icon": "fa-solid fa-chart-line",
+                      "color": "icon-info",
+                      "trendIcon": "fa-solid fa-arrow-trend-down",
+                      "trendColor": "text-danger",
+                      "trend": "2.5 %",
+                      "status": "Up from yesterday"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "record_id": "flex_0002",
+        "feature_name": "user_management",
+        "created_on_date": "2025-02-11",
+        "feature_data": {
+          "record_data": [
+            {
+              "record_label": "City",
+              "record_type": "string",
+              "record_value_text": "Hyderabad"
+            },
+            {
+              "record_label": "Country",
+              "record_type": "string",
+              "record_value_text": "India"
+            }
+          ]
+        },
+        "user_credentials": {
+          "username": "sharath",
+          "password": "sharath",
+          "email": "sharath@evega.in"
+        },
+        "profile_information": {
+          "full_name": "Thanugula Sharath Kumar",
+          "phone": "123-321-5678",
+          "address": { "street": "HYD", "city": "Hyd", "zip": 500054 }
+        },
+        "added_by": "flex_admin",
+        "record_status": "active",
+        "doc_position": 8,
+        "more_data": {
+          "permissions": [
+            {
+              "name": "Dashboard",
+              "route": "/dashboard",
+              "mainComponent": "DashboardComponent",
+              "components": ["TableComponent"],
+              "content": {
+                "dashboardItems": [
+                  {
+                    "type": "component",
+                    "row": 2,
+                    "width": 100,
+                    "height": 100,
+                    "name": "TableComponent",
+                    "api_point": "users_info"
+                  },
+                  {
+                    "type": "card",
+                    "name": "Total Users",
+                    "row": 1,
+                    "width": 45,
+                    "height": 100,
+                    "data": {
+                      "id": 1,
+                      "category": "Total Users",
+                      "value": "40,689",
+                      "icon": "fa-solid fa-user-group",
+                      "color": "icon-blue",
+                      "trendIcon": "fa-solid fa-arrow-trend-up",
+                      "trendColor": "text-info",
+                      "trend": "8.5 %",
+                      "status": "Up from yesterday"
+                    }
+                  },
+                  {
+                    "type": "card",
+                    "name": "Total Pending",
+                    "row": 1,
+                    "width": 45,
+                    "height": 100,
+                    "data": {
+                      "id": 2,
+                      "category": "Total Pending",
+                      "value": "1,268",
+                      "icon": "fa-solid fa-clock-rotate-left",
+                      "color": "icon-warning",
+                      "trendIcon": "fa-solid fa-arrow-trend-up",
+                      "trendColor": "text-info",
+                      "trend": "1.2 %",
+                      "status": "Up from yesterday"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+  
+  
