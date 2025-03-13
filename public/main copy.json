@@ -108,6 +108,106 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "Users",
+            "route": "/users",
+            "mainComponent": "UsersComponent",
+            "components": [
+                "UserTableComponent",
+                "UserStatsCard"
+            ],
+            "content": {
+                "users": [
+                    {
+                        "id": 1,
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "status": "Active"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Jane Doe",
+                        "email": "jane@example.com",
+                        "status": "Inactive"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Customers",
+            "route": "/customers",
+            "mainComponent": "customersComponent",
+            "components": [
+                "CustomerListComponent",
+                "CustomerStatsCard"
+            ],
+            "content": {
+                "customers": [
+                    {
+                        "id": 1,
+                        "name": "Acme Corp",
+                        "purchase": "$12,000",
+                        "status": "Premium"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Beta LLC",
+                        "purchase": "$8,500",
+                        "status": "Standard"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Products",
+            "route": "/products",
+            "mainComponent": "productsComponent",
+            "components": [
+                "ProductListComponent",
+                "ProductStatsCard"
+            ],
+            "content": {
+                "products": [
+                    {
+                        "id": 1,
+                        "name": "Product A",
+                        "price": "$100",
+                        "stock": "Available"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Product B",
+                        "price": "$150",
+                        "stock": "Out of Stock"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Reports",
+            "route": "/reports",
+            "mainComponent": "reportsComponent",
+            "components": [
+                "ReportsTableComponent",
+                "ReportsChartComponent"
+            ],
+            "content": {
+                "reports": [
+                    {
+                        "id": 1,
+                        "title": "Sales Report",
+                        "date": "2024-03-01",
+                        "status": "Completed"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Inventory Report",
+                        "date": "2024-03-02",
+                        "status": "Pending"
+                    }
+                ]
+            }
         }
     ]
 }

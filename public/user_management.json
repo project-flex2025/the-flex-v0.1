@@ -30,5 +30,10 @@
     "age": "21",
     "gender": "Female",
     "terms": true
+  },
+  {
+    "fullName": "sharath",
+    "email": "sharathkumarthanugula6@gmail.com",
+    "password": "wsadsd"
   }
 ]
